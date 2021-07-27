@@ -1,0 +1,72 @@
+1.Empty list in python is made by ?
+
+l=[]
+
+l=list()
+
+2.How we can convert the given list into the set ?
+
+set(list)
+
+3.If we change one data type to another, then it is called as 
+
+Type conversion/Type casting
+
+4.In which data type, indexing is not valid =>Dictionary,set
+
+5.In which data type, duplicate items are not allowed =>set
+
+6.what are immutable and mutable data types in python?
+
+Immutable-int,float,str,bool,complex,bytes,tuple
+Mutable-list,bytearray,set,dictionary
+
+7. What are membership operators? 
+
+	Membership operators are used to compare the content whixh is been present or not by using in and not in.
+	ex:
+	"A" in "Ram"==>False
+	"a" in "Ram"==>True
+	"A" not in "Ram"==>True
+
+8.Explain identity operators in Python?
+	Identity operators are used to check whether two values are been having same identity
+
+	10 is "10"==>False
+
+9.What is a function?
+
+	When we want to execute a sequence of statements, we can give it a name and we can call the function whenever we want to execute.
+
+10.What is Python's parameter passing mechanism?
+	There are two parameters passing mechanism in Python:
+
+	Pass by references
+	Pass by value
+
+11 - Which conditional statements are available in Python ?
+	Conditional statements are the programming statements which alter the course of execution based on a condition.
+	if
+	if-else
+	elif
+
+12 - Which looping statements are available in Python ?
+	Looping statements are those which repeat the execution of a set of statements in a cyclic manner based on a condition.
+	for
+	while
+13.What is lambda function in python?
+	lambda is a keyword in python which creates an anonymous function. Lambda does not contain block of statements. It does not contain return statements.	
+
+14.What is Scope in Python?
+	Every object in Python functions within a scope. A scope is a block of code where an object in Python remains relevant. Namespaces uniquely identify all the objects inside a program. However, these namespaces also have a scope defined for them where you could use their objects without any prefix. A few examples of scope created during code execution in Python are as follows:
+
+A local scope refers to the local objects available in the current function.
+A global scope refers to the objects available throught the code execution since their inception.
+
+15.What is break, continue and pass in Python?
+	Break=>	The break statement terminates the loop immediately
+		and the control flows to the statement after the body of the loop.
+	Continue=>The continue statement terminates the current iteration of the statement,
+		skips the rest of the code in the current iteration and the control flows to the next iteration of the loop.
+	Pass=> As explained above, pass keyword in Python is generally used to fill-up empty blocks
+		and is similar to an empty statement represented by a semi-colon in languages such as Java, C++, Javascript etc.
